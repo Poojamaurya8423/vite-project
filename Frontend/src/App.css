@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Reset all margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure full width and proper spacing */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Fix spacing for all sections */
+section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Ensure components have proper spacing */
+.header,
+.hero,
+.about,
+.services,
+.gallery,
+.contact,
+.booking {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Remove any default margins */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure containers have proper spacing */
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+}
+
+/* Fix any potential spacing issues */
+.App > * {
+  margin: 0;
+  padding: 0;
+}
